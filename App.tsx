@@ -93,6 +93,7 @@ function App(): React.JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
+          <Text style={{fontSize: 20}}>Now on Expo</Text>
           <View style={{margin: 30}}>
             <Text style={{fontSize: 20}}>Async Storage</Text>
             <Text>Async Storage, Current value: {asyncStoreValue}</Text>
